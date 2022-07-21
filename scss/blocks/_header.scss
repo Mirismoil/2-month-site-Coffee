@@ -1,0 +1,26 @@
+
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    margin: 44px 41px;
+}
+.header-list  {
+    @include ul()
+}
+.header-item > a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+.header-item +.header-item {
+    margin-left: 33px;
+}

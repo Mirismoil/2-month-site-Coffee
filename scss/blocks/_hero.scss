@@ -1,0 +1,51 @@
+.hero {
+    position: relative;
+}
+
+.hero-box {
+    position: absolute;
+    top: 124px;
+    left: 170px;
+    bottom: 10px;
+    right: 10px;
+}
+.hero-imgs{
+    border-radius: 10px;
+}
+.wrapper-box {
+    width: 538px;
+}
+
+.wrapper-box>h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.wrapper-box>p {
+    margin-bottom: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.hero-box__link {
+    padding: 15px 31px;
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+}
