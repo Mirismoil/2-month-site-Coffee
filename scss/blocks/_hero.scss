@@ -9,9 +9,11 @@
     bottom: 10px;
     right: 10px;
 }
-.hero-imgs{
+
+.hero-imgs {
     border-radius: 10px;
 }
+
 .wrapper-box {
     width: 538px;
 }
@@ -47,5 +49,18 @@
     text-align: center;
     color: #FEFCF7;
     background: #0E8784;
+    border-radius: 6px;
+}
+
+.hero-box__link:hover {
+    background: #66D2CF;
+    border-radius: 6px;
+    transition: 3s;
+}
+// active boganda black qildim chunki ichidegi yozuv korinmagan saban
+.hero-box__link:active {
+    transition: 1s;
+    color: black;
+    background: #E2DEDB;
     border-radius: 6px;
 }

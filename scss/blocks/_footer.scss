@@ -1,0 +1,37 @@
+.footer{
+    background: #2C343E;
+    height: 120px;
+    padding: 48px 66px;
+}
+.footer-bottom{
+    @include ul;
+    justify-content: space-between;
+}
+.footer-bottom__list{
+    @include ul;
+    margin: 0px 103px 0px 10px;
+    justify-content: space-around;
+}
+
+.box-wrapper__list>li{
+    margin: -22px;
+    padding: 0;
+}
+.box-wrapper__list{
+    @include ul;
+}
+.wrapper-list__link{
+    margin: 0px 84px 0px 25px;
+}
+.item{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
+.item:hover{
+    border-bottom: 2px solid black;
+}
+.wrapper-list-imgs path:hover{
+    fill: crimson;
+}
+.wrapper-list-imgs path:active{
+    fill: rgb(39, 1, 253);
+}
