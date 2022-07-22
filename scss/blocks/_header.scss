@@ -1,17 +1,24 @@
-
-.header-top{
+.site-header{
+    padding: 44px 0;
+}
+.header {
     display: flex;
     align-items: center;
+    list-style: none;
     justify-content: space-between;
 }
 
-img{
-    margin: 44px 41px;
+.header>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
-.header-list  {
-    @include ul()
+
+.item+.item {
+    margin-left: 40px;
 }
-.header-item > a{
+
+.item > a {
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -20,7 +27,4 @@ img{
     letter-spacing: 0.923077px;
     text-transform: uppercase;
     color: #83888F;
-}
-.header-item +.header-item {
-    margin-left: 33px;
 }
