@@ -19,7 +19,7 @@
 }
 
 .wrapper-box>h1 {
-    font-family: 'Fraunces', sans-serif;
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -40,7 +40,7 @@
 
 .hero-box__link {
     padding: 15px 31px;
-    font-family: 'Fraunces', sans-serif;
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
@@ -55,11 +55,11 @@
 .hero-box__link:hover {
     background: #66D2CF;
     border-radius: 6px;
-    transition: 3s;
+    transition: 0.3s;
 }
 // active boganda black qildim chunki ichidegi yozuv korinmagan saban
 .hero-box__link:active {
-    transition: 1s;
+    transition: 0.3s;
     color: black;
     background: #E2DEDB;
     border-radius: 6px;

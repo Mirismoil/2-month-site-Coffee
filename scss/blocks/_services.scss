@@ -12,7 +12,7 @@
 }
 .box__text>h2{
     margin-bottom: 32px;
-    font-family: 'Fraunces', sans-serif;
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -38,7 +38,7 @@
     justify-content: space-between;
 }
 .wrapper-box__list>ul{
-    transition: 2s;
+    transition: .3s;
     padding: 72px 48px 48px 48px;
     margin-right: 30px;
     list-style: none;
@@ -81,7 +81,7 @@
 }
 .li__wrapper>h3{
     padding-bottom: 24px;
-    font-family: 'Fraunces', sans-serif;
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;

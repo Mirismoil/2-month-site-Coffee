@@ -3,7 +3,7 @@
 }
 .box-work__title {
     margin-bottom: 80px;
-    font-family: 'Fraunces ', sans-serif;
+    font-family: 'Fraunces ', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -19,7 +19,7 @@
 }
 
 .box-work__span {
-    font-family: 'Fraunces ', sans-serif;
+    font-family: 'Fraunces ', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -32,13 +32,13 @@
     height: 130px;
 }
 
-.box-work__box>h3 {
+.box-work__strong3 {
     margin-top: 38px;
     margin-bottom: 48px;
-    font-family: 'Fraunces ', sans-serif;
+    font-family: 'Fraunces ', serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 36px;
     color: #333D4B;
 
@@ -55,7 +55,7 @@
 
 .box-work__link{
     padding:  16px 31px;
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
@@ -69,11 +69,11 @@
 .box-work__link:hover {
     background: #66D2CF;
     border-radius: 6px;
-    transition: 3s;
+    transition: 0.2s;
 }
 // active boganda black qildim chunki ichidegi yozuv korinmagan saban
 .box-work__link:active {
-    transition: 1s;
+    transition: .2s;
     color: black;
     background: #E2DEDB;
     border-radius: 6px;
